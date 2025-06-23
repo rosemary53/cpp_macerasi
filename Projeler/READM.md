@@ -1,37 +1,40 @@
-# Kim Hesap Makinesi Olmak İster?
+# Kim Hesap Makinesi Olmak Ä°ster?
 
-Bu proje, **23.06.2025** tarihinde **rosemary** tarafından yazılmıştır.
+Bu proje, **23.06.2025** tarihinde **rosemary** tarafÄ±ndan yazÄ±lmÄ±ÅŸtÄ±r.
 
-C++ dilinde şimdiye kadar öğrendiğim bilgileri bir araya getirerek basit bir oyun geliştirmek istedim.
+C++ dilinde ÅŸimdiye kadar Ã¶ÄŸrendiÄŸim bilgileri bir araya getirerek basit bir oyun geliÅŸtirmek istedim.
 
 ---
 
-#  Oyun Aşamaları
+#  Oyun AÅŸamalarÄ±
 
-1. Kullanıcıya toplam **5 adet soru** sorulur.
-2. Her soruda kullanıcıdan cevap alınır. Cevabın doğruluğuna göre geri bildirim verilir.
-   - Yanlış cevap verilirse doğru cevap kullanıcıya gösterilir.
-3. Her doğru cevapta **skor 1 artırılır**.
-4. 5 soru sonunda kullanıcıya **"Oyuna devam etmek ister misiniz?"** sorusu yöneltilir.
-   - Evet derse skor sıfırlanır, yeni sorularla oyun yeniden başlar.
-   - Hayır derse oyun sonlanır.
+1. KullanÄ±cÄ±ya toplam **5 adet soru** sorulur.
+2. Her soruda kullanÄ±cÄ±dan cevap alÄ±nÄ±r. CevabÄ±n doÄŸruluÄŸuna gÃ¶re geri bildirim verilir.
+   - YanlÄ±ÅŸ cevap verilirse doÄŸru cevap kullanÄ±cÄ±ya gÃ¶sterilir.
+3. Her doÄŸru cevapta **skor 1 artÄ±rÄ±lÄ±r**.
+4. 5 soru sonunda kullanÄ±cÄ±ya **"Oyuna devam etmek ister misiniz?"** sorusu yÃ¶neltilir.
+   - Evet derse skor sÄ±fÄ±rlanÄ±r, yeni sorularla oyun yeniden baÅŸlar.
+   - HayÄ±r derse oyun sonlanÄ±r.
    
 ---
 
-# Projemde Eksik Gördüğüm Yönler
+# Projemde Eksik GÃ¶rdÃ¼ÄŸÃ¼m YÃ¶nler
 
-- Soru sayısı ve çeşitliliği artırılabilir.  
-  (Örneğin: "Sayının baştan n. basamağı asal mı?" veya "Faktöriyeli kaçtır?" gibi)
-- Kullanıcı bilgileri (isim, toplam skor vb.) tutulabilir ve ekrana yazdırılabilir.
-- Kullanıcıya **ipucu almak ister misin?** gibi seçenekler sunulabilir.
-- Modüler yapıyı artırmak için bazı tekrar eden metinler parametreleştirilebilir.
-- Bazı değerleri manuel verdim, bunlar **dinamik** hale getirilebilir.
+- Soru sayÄ±sÄ± ve Ã§eÅŸitliliÄŸi artÄ±rÄ±labilir.  
+  (Ã–rneÄŸin: "SayÄ±nÄ±n baÅŸtan n. basamaÄŸÄ± asal mÄ±?" veya "FaktÃ¶riyeli kaÃ§tÄ±r?" gibi)
+- KullanÄ±cÄ± bilgileri (isim, toplam skor vb.) tutulabilir ve ekrana yazdÄ±rÄ±labilir.
+- KullanÄ±cÄ±ya **ipucu almak ister misin?** gibi seÃ§enekler sunulabilir.
+- ModÃ¼ler yapÄ±yÄ± artÄ±rmak iÃ§in bazÄ± tekrar eden metinler parametreleÅŸtirilebilir.
+- BazÄ± deÄŸerleri manuel verdim, bunlar **dinamik** hale getirilebilir.
 
 ---
 
-#  Dosya Yapısı Hakkında
+#  Dosya YapÄ±sÄ± HakkÄ±nda
 
-Başlangıçta projeyi sadece tek bir dosyada (`main.cpp`) yazmıştım. Ancak **header dosyalarını** öğrendikten sonra 
-fonksiyon bildirimlerini `.h` uzantılı bir dosyada, fonksiyon tanımlarını ise ayrı bir `.cpp` dosyasında tutmaya karar verdim.
-Bu nedenle projeyi yeniden düzenledim ve buraya bu haliyle yüklüyorum.
+BaÅŸlangÄ±Ã§ta projeyi sadece tek bir dosyada (`main.cpp`) yazmÄ±ÅŸtÄ±m. Ancak **header dosyalarÄ±nÄ±** Ã¶ÄŸrendikten sonra 
+fonksiyon bildirimlerini `.h` uzantÄ±lÄ± bir dosyada, fonksiyon tanÄ±mlarÄ±nÄ± ise ayrÄ± bir `.cpp` dosyasÄ±nda tutmaya karar verdim.
+Bu nedenle projeyi yeniden dÃ¼zenledim ve buraya bu haliyle yÃ¼klÃ¼yorum.
+
+# BaÅŸka soru Ã¶nerisi ne olabilir ?
+  bilgisayar rastgele sayÄ± Ã¼retsin kullanÄ±cÄ±ya ipucu ÅŸansÄ± versin.ÃœrettiÄŸi sayÄ± asaldir gibi ipucu verebilir.
 
